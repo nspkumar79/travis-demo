@@ -5,6 +5,9 @@ dist: focal
 language: java
 git:
   depth: 3
+branches:
+  except:
+  - feature1
 script:
   - echo "Hello World!"
   - arch
