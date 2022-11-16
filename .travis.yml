@@ -3,9 +3,12 @@ arch:
   - amd64
 dist: focal
 language: java
+before_install:
+- python install 3.8
 git:
   depth: 3
 script:
   - echo "Hello World!"
   - arch
   - java --version
+  - python3 --version
