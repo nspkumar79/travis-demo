@@ -4,11 +4,11 @@ arch:
 dist: focal
 language: java
 before_install:
-- python install 3.8
+- rvm install 2.1.5
 git:
   depth: 3
 script:
   - echo "Hello World!"
   - arch
   - java --version
-  - python3 --version
+  - ruby --version
