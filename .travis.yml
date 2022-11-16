@@ -3,8 +3,6 @@ arch:
   - amd64
 dist: focal
 language: java
-before_install:
-- rvm install 2.1.5
 git:
   depth: 3
 script:
