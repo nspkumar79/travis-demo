@@ -4,7 +4,7 @@ arch:
 dist: focal
 language: java
 git:
-  depth: 3
+  depth: 2
 script:
   - echo "Hello World!"
   - arch
